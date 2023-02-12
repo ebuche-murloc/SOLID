@@ -7,6 +7,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        SRPEntry.SRPMain(args);
+        //SRP
+        SRPEntry.Main(args);
     }
 }
