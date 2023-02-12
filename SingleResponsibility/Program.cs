@@ -8,7 +8,6 @@ class Program
     }
 }
 
-//Just journal
 class Journal
 {
     private readonly List<string> entries = new List<string>();
@@ -27,5 +26,18 @@ class Journal
     public override string ToString()
     {
         return string.Join(Environment.NewLine, entries);
+    }
+
+    //adding file manipulation logic and breaking SR principle
+    public void Save(string filename, bool overwrite = false)
+    {
+        if (overwrite || !File.Exists(filename))
+            File.WriteAllText(filename, entries.ToString());
+    }
+
+    public void Load(string filename)
+    {
+        foreach (var s in File.ReadAllLines(filename))
+            entries.Add(s);
     }
 }
