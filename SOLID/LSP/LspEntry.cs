@@ -8,7 +8,7 @@ public class LspEntry
         UseIt(rc);
 
         var sq = new Square(5);
-        UseIt(sq); // exp 50 got 100
+        UseIt(sq); // exp 50 got 50
     }
 
     public static void UseIt(Rectangle r)
