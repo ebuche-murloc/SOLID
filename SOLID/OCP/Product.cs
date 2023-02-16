@@ -8,7 +8,7 @@ public class Product
 
     public Product(string name, Color color, Size size)
     {
-        Name = name;
+        Name = name ?? throw new ArgumentNullException(paramName: nameof(name));
         Color = color;
         Size = size;
     }
