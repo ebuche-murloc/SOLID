@@ -4,11 +4,11 @@ public class LspEntry
 {
     public static void Main(string[] args)
     {
-        var rc = new Rectangle(2, 3);
+        var rc = new Rectangle(2, 3); // exp 30 got 30
         UseIt(rc);
 
         var sq = new Square(5);
-        UseIt(sq);
+        UseIt(sq); // exp 50 got 100
     }
 
     public static void UseIt(Rectangle r)
