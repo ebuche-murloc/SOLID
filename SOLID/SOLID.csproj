@@ -8,8 +8,4 @@
     <StartupObject>SOLID.Program</StartupObject>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="SRP\" />
-  </ItemGroup>
-
 </Project>

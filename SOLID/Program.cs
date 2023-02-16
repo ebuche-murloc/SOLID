@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using SOLID.OCP;
 using SOLID.SRP;
 
 namespace SOLID;
@@ -8,6 +9,8 @@ class Program
     public static void Main(string[] args)
     {
         //SRP
-        SRPEntry.Main(args);
+        //SrpEntry.Main(args);
+        //OCP
+        OcpEntry.Main(args);
     }
 }
