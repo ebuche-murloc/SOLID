@@ -2,9 +2,9 @@
 
 namespace SOLID.SRP;
 
-class SRPEntry
+class SrpEntry
 {
-    public static void SRPMain(string[] args)
+    public static void Main(string[] args)
     {
         var journal = new Journal();
         journal.AddEntry("Da eto josko bylo");
