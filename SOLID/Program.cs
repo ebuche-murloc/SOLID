@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using SOLID.LSP;
 using SOLID.OCP;
 using SOLID.SRP;
 
@@ -11,6 +12,8 @@ class Program
         //SRP
         //SrpEntry.Main(args);
         //OCP
-        OcpEntry.Main(args);
+        //OcpEntry.Main(args);
+        //LSP
+        LspEntry.Main(args);
     }
 }
