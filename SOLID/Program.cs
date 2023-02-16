@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using SOLID.DIP;
 using SOLID.LSP;
 using SOLID.OCP;
 using SOLID.SRP;
@@ -17,5 +18,7 @@ class Program
         //LspEntry.Main(args);  
         //ISP
         //IspEntry.Main(args); //just visual
+        //DIP
+        DipEntry.Main(args);
     }
 }
