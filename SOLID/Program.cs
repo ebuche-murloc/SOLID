@@ -14,6 +14,8 @@ class Program
         //OCP
         //OcpEntry.Main(args);
         //LSP
-        LspEntry.Main(args);
+        //LspEntry.Main(args);  
+        //ISP
+        //IspEntry.Main(args); //just visual
     }
 }
